@@ -1,0 +1,60 @@
+body{
+    font-family: 'JetBrains Mono', monospace;
+}
+div h1 {
+    margin-left: 15%;
+    font-family: 'JetBrains Mono', monospace;
+    color: #fff;
+    margin-top: 30%;
+}
+div h4{
+    margin-left: 15%;
+    font-family: 'JetBrains Mono', monospace;
+    color: #fff;
+    opacity: 70%;
+}
+.box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1043px;
+    height: 804px;
+    left: 89px;
+    top: 138px;
+    
+    background: linear-gradient(119.47deg, #000000 16.83%, rgba(0, 0, 0, 0) 72.34%);
+    backdrop-filter: blur(25px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 76px;
+}
+.circle {
+box-sizing: border-box;
+border-radius: 50%;
+
+position: absolute;
+width: 276px;
+height: 276px;
+left: 35px;
+top: 867px;
+
+background: linear-gradient(61.21deg, #D9D9D9 3.97%, rgba(217, 217, 217, 0) 97.38%);
+backdrop-filter: blur(25px);
+/* Note: backdrop-filter has minimal browser support */
+}
+.circle-round {
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 1199px;
+top: 905px;
+border-radius: 50%;
+
+background: #D9D9D9;
+}
+.code-html {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 11%;
+        margin-left: 3%;
+}
